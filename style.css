@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #ff914d, #ffcf73);
+    color: #333;
+}
+header {
+    background-color: #ff5722;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+/* Enhanced Navbar Style */
+.navbar {
+    background: linear-gradient(45deg, #ff5722, #ff914d);
+}
+.navbar-brand img {
+    width: 50px;
+    height: auto;
+}
+.navbar-nav a {
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.navbar-nav a:hover {
+    background-color: #ff784e;
+    border-radius: 5px;
+}
+.cart-icon {
+    font-size: 1.5rem;
+    color: white;
+}
+.slider {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.slides img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.menu {
+    padding: 50px 0;
+}
+.menu h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #ff5722;
+}
+/* Improved Card Style */
+.menu-item {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+}
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: #ff5722;
+}
+.menu-item p {
+    margin: 10px 0;
+    flex-grow: 1;
+}
+.menu-item .price {
+    font-size: 1.2rem;
+    color: #333;
+}
+footer {
+    background-color: #ff5722;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+    transition: 0.6s ease;
+}
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+/* */
+
+/* Adjust chatbot section width to match menu section */
+.chatbot {
+    text-align: center;
+}
+
+/* Chatbot card */
+.card {
+    max-width: 500px; /* Increased width */
+    margin: 0 auto;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow to match menu cards */
+}
+
+/* Adjust chatbot iframe size */
+.chatbot-frame {
+    border: none;
+    border-radius: 10px;
+    height: 400px; /* Reduced height */
+}
+
+/* Add margin at the bottom to space it out from other sections */
+.chatbot {
+    margin-bottom: 50px;
+}
